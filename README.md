@@ -4,7 +4,7 @@
 
 ## 📊 Quick Evaluation (TREC DL 2019)
 
-To evaluate the ranking results on the **TREC DL 2019** dataset using `pyserini`, run the following command:
+To evaluate the ranking results on the **TREC DL 2019 document ranking** dataset using `pyserini`, run the following command:
 
 ```bash
 python -m pyserini.eval.trec_eval -c -m ndcg_cut.10 -m map dl19-doc ${rerankBaseName}.trec
