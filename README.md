@@ -8,5 +8,6 @@ To evaluate the ranking results on the **TREC DL 2019 document ranking** dataset
 
 ```bash
 python -m pyserini.eval.trec_eval -c -m ndcg_cut.10 -m map dl19-doc ${rerankBaseName}.trec
+```
 
 Code and other rerank files will be updated later.
