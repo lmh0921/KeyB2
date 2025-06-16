@@ -13,4 +13,11 @@ python -m pyserini.eval.trec_eval -c -m ndcg_cut.10 -m map dl19-doc ${rerankBase
 The results of using pyserini can be seen in https://colab.research.google.com/drive/1-zZU2WSj2P8FMZQc4pMpi84HYEPZKU7J?usp=sharing
 (upload the two runs in the colab files, then run the code)
 
+map                   	all	0.3021
+ndcg_cut_10           	all	0.7295
+----
+map                   	all	0.2984
+ndcg_cut_10           	all	0.7314
+
+
 Code and other rerank files will be updated later.
