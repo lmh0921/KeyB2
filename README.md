@@ -15,7 +15,8 @@ The results of using pyserini can be seen in https://colab.research.google.com/d
 
 map                   	all	0.3021
 ndcg_cut_10           	all	0.7295
-----
+
+
 map                   	all	0.2984
 ndcg_cut_10           	all	0.7314
 
